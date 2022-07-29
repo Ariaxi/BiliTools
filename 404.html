@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>BiliTools 使用说明</title><meta name="description" content="这是 BiliTools 使用说明文档站点">
+    <link rel="modulepreload" href="/BiliTools/assets/app.243f5748.js"><link rel="modulepreload" href="/BiliTools/assets/404.html.74b91495.js"><link rel="modulepreload" href="/BiliTools/assets/404.html.265028f6.js"><link rel="prefetch" href="/BiliTools/assets/index.html.06f51ea3.js"><link rel="prefetch" href="/BiliTools/assets/index.html.a7d51b39.js"><link rel="prefetch" href="/BiliTools/assets/index.html.fdaa3945.js"><link rel="prefetch" href="/BiliTools/assets/account.html.56773cb6.js"><link rel="prefetch" href="/BiliTools/assets/env.html.6a431a8b.js"><link rel="prefetch" href="/BiliTools/assets/func.html.45407002.js"><link rel="prefetch" href="/BiliTools/assets/get_access_key_pc.html.205c6634.js"><link rel="prefetch" href="/BiliTools/assets/get_cookie_mobile.html.43b29976.js"><link rel="prefetch" href="/BiliTools/assets/get_value.html.83de961d.js"><link rel="prefetch" href="/BiliTools/assets/github_secrets.html.c7183805.js"><link rel="prefetch" href="/BiliTools/assets/logger.html.4c022fc2.js"><link rel="prefetch" href="/BiliTools/assets/message.html.dc90ab90.js"><link rel="prefetch" href="/BiliTools/assets/index.html.4af79943.js"><link rel="prefetch" href="/BiliTools/assets/action_scf.html.b9803f37.js"><link rel="prefetch" href="/BiliTools/assets/ali_fc.html.e1a6d1d9.js"><link rel="prefetch" href="/BiliTools/assets/baidu_cfc.html.d1fbcb83.js"><link rel="prefetch" href="/BiliTools/assets/docker.html.fc4bd512.js"><link rel="prefetch" href="/BiliTools/assets/github_action.html.e140b0b0.js"><link rel="prefetch" href="/BiliTools/assets/huawei_agc.html.a410cec3.js"><link rel="prefetch" href="/BiliTools/assets/huawei_fg.html.94a52033.js"><link rel="prefetch" href="/BiliTools/assets/local.html.ea6cbcd1.js"><link rel="prefetch" href="/BiliTools/assets/qinglong.html.7514b1dc.js"><link rel="prefetch" href="/BiliTools/assets/server.html.2b73ea06.js"><link rel="prefetch" href="/BiliTools/assets/tencent_scf.html.a6a12757.js"><link rel="prefetch" href="/BiliTools/assets/update.html.7f81f59b.js"><link rel="prefetch" href="/BiliTools/assets/video.html.f6e20003.js"><link rel="prefetch" href="/BiliTools/assets/index.html.a9bd3394.js"><link rel="prefetch" href="/BiliTools/assets/index.html.601a03aa.js"><link rel="prefetch" href="/BiliTools/assets/index.html.1f428eed.js"><link rel="prefetch" href="/BiliTools/assets/account.html.c18351bf.js"><link rel="prefetch" href="/BiliTools/assets/env.html.4c2c8dd9.js"><link rel="prefetch" href="/BiliTools/assets/func.html.64e5f979.js"><link rel="prefetch" href="/BiliTools/assets/get_access_key_pc.html.558e3f16.js"><link rel="prefetch" href="/BiliTools/assets/get_cookie_mobile.html.404cecb1.js"><link rel="prefetch" href="/BiliTools/assets/get_value.html.f64887c1.js"><link rel="prefetch" href="/BiliTools/assets/github_secrets.html.8e99c3b3.js"><link rel="prefetch" href="/BiliTools/assets/logger.html.aa0e6d53.js"><link rel="prefetch" href="/BiliTools/assets/message.html.73a9f8e5.js"><link rel="prefetch" href="/BiliTools/assets/index.html.8e77fb08.js"><link rel="prefetch" href="/BiliTools/assets/action_scf.html.f255736e.js"><link rel="prefetch" href="/BiliTools/assets/ali_fc.html.1897dbd5.js"><link rel="prefetch" href="/BiliTools/assets/baidu_cfc.html.5a650223.js"><link rel="prefetch" href="/BiliTools/assets/docker.html.7563e3f1.js"><link rel="prefetch" href="/BiliTools/assets/github_action.html.db905791.js"><link rel="prefetch" href="/BiliTools/assets/huawei_agc.html.6968a5d9.js"><link rel="prefetch" href="/BiliTools/assets/huawei_fg.html.0b1c5dd8.js"><link rel="prefetch" href="/BiliTools/assets/local.html.2639bab2.js"><link rel="prefetch" href="/BiliTools/assets/qinglong.html.0172bb97.js"><link rel="prefetch" href="/BiliTools/assets/server.html.e7c6c75f.js"><link rel="prefetch" href="/BiliTools/assets/tencent_scf.html.883afbaf.js"><link rel="prefetch" href="/BiliTools/assets/update.html.47bf034a.js"><link rel="prefetch" href="/BiliTools/assets/video.html.6753b269.js"><link rel="prefetch" href="/BiliTools/assets/404.37782356.js"><link rel="prefetch" href="/BiliTools/assets/Layout.8325f5ae.js"><link rel="prefetch" href="/BiliTools/assets/BilibiliVideo.d92b0ef3.js"><link rel="prefetch" href="/BiliTools/assets/ConfigPath.f87edb10.js"><link rel="prefetch" href="/BiliTools/assets/MyLink.44d4394d.js"><link rel="prefetch" href="/BiliTools/assets/ServerlessCommon.aa3278b7.js"><link rel="prefetch" href="/BiliTools/assets/SponsorShip.82c3924c.js"><link rel="prefetch" href="/BiliTools/assets/TestedVersion.58f2cfbe.js">
+    <link rel="stylesheet" href="/BiliTools/assets/style.fd61cea7.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>抱歉，您要查找的页面不存在。</blockquote><a href="/BiliTools/" class="">返回首页</a></div></div><!----><!--]--></div>
+    <script type="module" src="/BiliTools/assets/app.243f5748.js" defer></script>
+  </body>
+</html>
